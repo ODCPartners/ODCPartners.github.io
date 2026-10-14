@@ -54,6 +54,25 @@
   .ctaband .callbtn2 { background:#1f3d2b; color:#fff; display:inline-block; padding:14px 28px; border-radius:8px; font-weight:bold; font-size:18px; }
   footer { background:#142a1e; color:#b9c6bc; text-align:center; padding:30px 20px; font-size:13px; line-height:1.7; }
   footer a { color:#c9a86a; }
+  .anywhere { text-align:center; color:#4a5a4e; font-size:16px; padding:36px 20px 8px; max-width:720px; margin:0 auto; line-height:1.6; }
+  .anywhere b { color:#1f3d2b; }
+  .footwrap { display:flex; align-items:center; justify-content:center; gap:20px; max-width:960px; margin:0 auto; text-align:left; }
+  .footlogo { width:84px; height:auto; flex:none; }
+  @media (max-width: 760px) {
+    .topbar { padding:12px 16px; flex-direction:column; gap:10px; }
+    .hero { flex-direction:column; padding:36px 18px 28px; gap:26px; }
+    h1 { font-size:34px; }
+    .sub { font-size:17px; }
+    .formcard { padding:22px 18px; }
+    .section { padding:38px 18px 8px; }
+    .section h2 { font-size:26px; }
+    .steps, .why { flex-direction:column; }
+    .trust { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:24px 16px; }
+    .ctaband { padding:32px 18px; }
+    .ctaband h2 { font-size:26px; }
+    .footwrap { flex-direction:column; text-align:center; gap:12px; }
+    .footlogo { width:72px; }
+  }
 </style>
 </head>
 <body>
@@ -65,12 +84,9 @@
 
 <div class="hero">
   <div class="hero-left">
-    <div class="badge">VACANT LAND BUYERS · CA, OH &amp; BEYOND</div>
+    <div class="badge">VACANT LAND BUYERS · ANYWHERE IN THE USA</div>
     <h1>We Buy Vacant Land for Cash. Fast.</h1>
-    <p class="sub">Get a fair, no-obligation cash offer for your land — in California, Ohio, or wherever it sits. No agents, no commissions, no closing costs — just a simple sale on your timeline, closed through a licensed title company.</p>
-    <div class="landart">
-      <img src="logo.png" alt="ODC Partners — we buy vacant land for cash" style="width:100%;max-width:380px;margin:0 auto;display:block;">
-    </div>
+    <p class="sub">Get a fair, no-obligation cash offer for your land — anywhere in the USA. No agents, no commissions, no closing costs — just a simple sale on your timeline, closed through a licensed title company.</p>
     <div class="checks">
       <div>✓ Any condition</div>
       <div>✓ Back taxes OK</div>
@@ -94,7 +110,7 @@
       <option>Ask a question</option>
     </select>
     <label for="f-county">Property County &amp; State</label>
-    <input id="f-county" name="county" placeholder="e.g. Kern County, CA">
+    <input id="f-county" name="county" placeholder="e.g. Travis County, TX">
     <label for="f-apn">Parcel Number (APN) or Property Address</label>
     <input id="f-apn" name="apn" placeholder="APN or address">
     <label for="f-owner">Reference Number (printed on your letter)</label>
@@ -105,7 +121,7 @@
     </form>
     <div id="formDone" style="display:none;">
       <h2>You're all set.</h2>
-      <p class="fast">Thanks — a real person will call you back within one business day. Need us sooner? Call or text <a href="tel:+16614262857">(661) 426-2857</a>.</p>
+      <p class="fast">Thanks — we'll reach out within one business day. Need us sooner? Call or text <a href="tel:+16614262857">(661) 426-2857</a>.</p>
     </div>
   </div>
 </div>
@@ -115,7 +131,6 @@
   <div><b>We Pay</b><span>All closing costs</span></div>
   <div><b>Within 30 Days</b><span>Closing, often sooner</span></div>
   <div><b>Title Company</b><span>Every closing</span></div>
-  <div><b>Real People</b><span>Callback within 1 business day</span></div>
 </div>
 
 <div class="section">
@@ -138,15 +153,7 @@
   </div>
 </div>
 
-<div class="section">
-  <h2>Where We Buy</h2>
-  <p class="lede">We're most active in California and Ohio — and we're expanding. If your land is somewhere else, send it anyway.</p>
-  <div class="steps">
-    <div class="step"><h3>California</h3><p>Home base is Bakersfield and Kern County, and we buy vacant land across the state.</p></div>
-    <div class="step"><h3>Ohio</h3><p>We actively buy in Ohio, including the Youngstown and Mahoning County area and beyond.</p></div>
-    <div class="step"><h3>Anywhere in the USA</h3><p>We buy land all across the country. Submit your property and we'll take a look — if the numbers work, we'll make an offer, and if they don't, we'll tell you straight.</p></div>
-  </div>
-</div>
+<div class="anywhere">We buy vacant land <b>anywhere in the USA</b> — send us your property and we'll take a look. If the numbers work, we'll make an offer.</div>
 
 <div class="section">
   <h2>Got a Letter From Us?</h2>
@@ -171,15 +178,20 @@
 
 <div class="ctaband">
   <h2>Ready to See What Your Land Is Worth?</h2>
-  <p>Call or text us — a real person calls you back within one business day. Prefer email? <a href="mailto:offers@odcpartners.com" style="color:#1f3d2b;">offers@odcpartners.com</a></p>
+  <p>Call or text us. Prefer email? <a href="mailto:offers@odcpartners.com" style="color:#1f3d2b;">offers@odcpartners.com</a></p>
   <div class="callbtn2">Call or Text (661) 426-2857</div>
 </div>
 
 <footer>
-  ODC Partners · Bakersfield, California · (661) 426-2857 · <a href="mailto:offers@odcpartners.com">offers@odcpartners.com</a><br>
-  Questions about your property? Call or text START to (661) 426-2857. By texting us, you agree to receive text messages from ODC Partners about your property inquiry. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.<br>
-  <a href="terms.html">Terms &amp; Conditions</a> · <a href="privacy-policy.html">Privacy Policy</a><br>
-  © 2026 ODC Partners. All rights reserved.
+  <div class="footwrap">
+    <img src="logo.png" alt="ODC Partners" class="footlogo">
+    <div>
+      ODC Partners · <a href="tel:+16614262857">(661) 426-2857</a> · <a href="mailto:offers@odcpartners.com">offers@odcpartners.com</a><br>
+      Questions about your property? Call or text START to (661) 426-2857. By texting us, you agree to receive text messages from ODC Partners about your property inquiry. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.<br>
+      <a href="terms.html">Terms &amp; Conditions</a> · <a href="privacy-policy.html">Privacy Policy</a><br>
+      © 2026 ODC Partners. All rights reserved.
+    </div>
+  </div>
 </footer>
 
 <script>
@@ -200,9 +212,9 @@ document.getElementById('leadForm').addEventListener('submit', function (ev) {
     apn: f.elements.namedItem('apn').value.trim(),
     ownerId: f.elements.namedItem('ownerId').value.trim()
   };
-  if (!data.name || !data.phone) {
+  if (!data.name || !data.phone || !data.county || !data.apn) {
     status.className = 'formstatus err';
-    status.textContent = 'Please add your name and phone number so we can reach you.';
+    status.textContent = 'Please fill in your name, phone number, county & state, and parcel number or address so we can look up your property.';
     return;
   }
   if (SCRIPT_URL.indexOf('PASTE_YOURS_HERE') !== -1) {
